@@ -196,7 +196,7 @@ h4 {
 
 .services-main img {
     max-width: 4rem;
-    max-height: 3rem;
+    max-height: auto;
     
 }
 
