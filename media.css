@@ -1,0 +1,112 @@
+
+@media (max-width: 1200px) {
+    .top-fir {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main__info {
+        display: block;
+    }
+
+    .left-bar__about img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+
+    .main__info-about {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+    }
+
+    .left-bar__about img {
+        max-width: 100%;
+    }
+
+    .about-glass__page {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-bar__about {
+        padding: 0;
+        max-width: 100%;
+        margin: 2rem 0rem;
+    }
+    .right-bar__about {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 780px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .top>.sec {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 620px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .middle-social {
+        display: block;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .middle-info {
+        position: absolute;
+        width: 80%;
+        top: 30%;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .left-bar__about,
+    .right-bar__about {
+        padding: 0;
+        margin: 2rem 0rem;
+    }
+
+    .top {
+        display: block;
+    }
+
+    .top > .sec {
+        margin-top: 10px;
+    }
+
+    .footer-container {
+        padding-bottom: 1rem;
+    }
+}
