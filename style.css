@@ -185,7 +185,6 @@ h4 {
 .img-box {
     display: flex;
     justify-content: center;
-    justify-self: flex-start;
     border: 1px solid #3d3d3d;
     padding: .2rem;
 }
@@ -196,7 +195,7 @@ h4 {
 
 .services-main img {
     max-width: 4rem;
-    max-height: auto;
+    max-height: 4rem;
     
 }
 
