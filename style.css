@@ -196,7 +196,8 @@ h4 {
 
 .services-main img {
     max-width: 4rem;
-    height: auto;
+    max-height: 2rem;
+    
 }
 
 .fir {
